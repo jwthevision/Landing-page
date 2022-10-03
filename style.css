@@ -23,9 +23,12 @@ body {
 .HL {
     display: flex;
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
     flex-direction: row;
     height: 45px;
+    justify-items: center;
+    align-items: center;
 }
 
 ul, li, #links-right {
@@ -37,6 +40,8 @@ ul, li, #links-right {
     display: flex;
     flex-direction: row;
     gap: 18px;
+    justify-items: center;
+    align-items: center;
 
 }
 
@@ -70,12 +75,12 @@ a:visited {
     width: 30px;
 }
 
-.image {
+/*.image {
     background: #1f2937;
     display: flex;
     justify-content: flex-end;
     align-content: flex-start;
-}
+}*/
 
 .button {
     display: flex;
