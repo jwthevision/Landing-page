@@ -102,7 +102,7 @@ a:visited {
 
 img {
     display: flex;
-    width: 150px;
+    width: auto;
     height: 150px;
     align-items: center;
     justify-items: flex-start;
