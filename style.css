@@ -52,13 +52,18 @@ a:visited {
 .cc {
     display: flex;
     background: #1f2937;
-    align-content: flex-end;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
     padding: 65px 125px;
-    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .l2 {
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
 }
 
 .secondary-header {
@@ -81,8 +86,7 @@ a:visited {
 .image {
     background: #1f2937;
     display: flex;
-    justify-content: flex-end;
-    align-content: flex-start;
+    right: 50%;
 }
 
 .button {
